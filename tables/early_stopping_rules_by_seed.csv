@@ -1,0 +1,36 @@
+rule,seed,stop_epoch,test_R2
+"train-loss patience (w=50, 200 epochs, 1%)",1434,1267,0.9904000876281225
+"train-loss patience (w=50, 100 epochs, 1%)",1434,1167,0.9870941647055546
+fixed 1000 epochs,1434,1000,0.9920358941919295
+fixed 1500 epochs,1434,1500,0.991308205758649
+fixed 2000 epochs (reported),1434,2000,0.996150821861318
+best moving-average train loss,1434,1067,0.9915963444395752
+"oracle: best test R2 (uses test data, not usable)",1434,1410,0.9985933630039657
+"train-loss patience (w=50, 200 epochs, 1%)",1534,1198,0.9945277707117671
+"train-loss patience (w=50, 100 epochs, 1%)",1534,802,0.9899255821142249
+fixed 1000 epochs,1534,1000,0.9845953615611127
+fixed 1500 epochs,1534,1500,0.9962929545511974
+fixed 2000 epochs (reported),1534,2000,0.9925445152090102
+best moving-average train loss,1534,998,0.9904252431151012
+"oracle: best test R2 (uses test data, not usable)",1534,1315,0.9983508488227757
+"train-loss patience (w=50, 200 epochs, 1%)",1234,958,0.9945063327633626
+"train-loss patience (w=50, 100 epochs, 1%)",1234,858,0.9943279656409361
+fixed 1000 epochs,1234,1000,0.9913673271123127
+fixed 1500 epochs,1234,1500,0.9956104513705353
+fixed 2000 epochs (reported),1234,2000,0.9958572750917734
+best moving-average train loss,1234,760,0.9892488058055635
+"oracle: best test R2 (uses test data, not usable)",1234,1924,0.9983110959821461
+"train-loss patience (w=50, 200 epochs, 1%)",1334,1532,0.9963977001198494
+"train-loss patience (w=50, 100 epochs, 1%)",1334,928,0.9922203194633055
+fixed 1000 epochs,1334,1000,0.9963320851018789
+fixed 1500 epochs,1334,1500,0.9955816113174795
+fixed 2000 epochs (reported),1334,2000,0.9960637239552688
+best moving-average train loss,1334,1332,0.9946854129160934
+"oracle: best test R2 (uses test data, not usable)",1334,1696,0.9984186092353308
+"train-loss patience (w=50, 200 epochs, 1%)",2024,1032,0.9946403378252936
+"train-loss patience (w=50, 100 epochs, 1%)",2024,932,0.9909940569407406
+fixed 1000 epochs,2024,1000,0.9883737743578224
+fixed 1500 epochs,2024,1500,0.9946529019543641
+fixed 2000 epochs (reported),2024,2000,0.9952855626099539
+best moving-average train loss,2024,1112,0.9953287501465176
+"oracle: best test R2 (uses test data, not usable)",2024,1935,0.9981817539096836

@@ -1,0 +1,8 @@
+Item,Value
+Seeds,"1234, 1334, 2024, 1434 and 1534: five runs of the CP-PINN and of every baseline (benchmark/bench.py); the main run (pinn/cp_pinn_train.py) uses 1234, 1334 and 2024"
+Weight sweep,"multipliers 0.1, 1, 10 for each weight, 500 epochs; seeds 1234, 1334, 2024 (three seeds); 2000-epoch check for the initial-condition weight"
+Case ordering,"case names sorted numerically; case1-case30 train, case31-case50 test"
+Training cases (30),case1 to case30
+Test cases (20),"case31 to case50 (20 x 254 = 5,080 observations); displayed cases TC-1 to TC-5 = case33, case35, case36, case42, case47 (highest CP-PINN R2 in the main run)"
+Time points,"254 per breakthrough curve (0-25.3 d, 0.1 d step)"
+Timing protocol,10 warm-up calls and 200 timed repeats per test case; solver timed on the same CPU

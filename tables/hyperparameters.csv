@@ -1,0 +1,12 @@
+Item,Value
+Inputs (10),"x, t, ζ, θm, θim, f, ρ, k, Dm, qx"
+Architecture,"two branches (mobile, immobile); each encoder 3 × 64 Tanh; decoder 32 Tanh and one Sigmoid output"
+Initialization,"orthogonal, gain 0.8"
+Optimizer,"Adam, learning rate 10⁻³, no scheduler; gradient-norm clipping 0.1"
+Epochs,2000 (full runs); 500 (weight sweeps); no early stopping; final-epoch model reported
+Updates per epoch,one optimizer step per training case (30 steps)
+Loss weights,"λdata = 10, λPDE = 1, λIC = 0.5, λBCin = 0.5, λBCout = 0.5"
+Collocation points per case and epoch,"100 interior, 50 inlet, 50 outlet, 50 initial-condition; resampled uniformly each epoch"
+Parameter normalization,z-score with training-case mean and standard deviation (Table A3)
+Target normalization,"Cm divided by the inlet concentration C0 (C0 = 10, the same for all cases)"
+Precision,float32
