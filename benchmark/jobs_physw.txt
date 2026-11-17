@@ -1,0 +1,5 @@
+physonly 1234 2000 bci=20 ic=20 bco=20
+physonly 1334 2000 bci=20 ic=20 bco=20
+physonly 2024 2000 bci=20 ic=20 bco=20
+physonly 1434 2000 bci=20 ic=20 bco=20
+physonly 1534 2000 bci=20 ic=20 bco=20
