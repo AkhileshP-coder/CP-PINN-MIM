@@ -1,6 +1,6 @@
 # CP-PINN-MIM
 
-Code, data and results for the manuscript *A parameterized coupled physics-informed neural network (CP-PINN) for mobile-immobile (dual-porosity) contaminant transport in porous media* (Akhilesh Paswan, School of Civil and Environmental Engineering, IIT Mandi; submitted to Advances in Water Resources).
+Code, data and results for the manuscript *A parameterized coupled physics-informed neural network (CP-PINN) for mobile-immobile contaminant transport in porous media* (Akhilesh Paswan, School of Civil and Environmental Engineering, IIT Mandi).
 
 The repository contains everything needed to repeat the calculations of the paper: the finite-difference solver and the script that generated the 50-case data set, the single data file, the CP-PINN training code, the baseline models, the five-seed study, the raw results of every run, and the tables with the parameters, normalization statistics, hyperparameters and random seeds.
 
